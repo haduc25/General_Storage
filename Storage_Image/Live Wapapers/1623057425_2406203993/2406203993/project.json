@@ -1,0 +1,166 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "[b]🎨 Artwork by[url=https://www.artstation.com/shal] Shal.E[/url][/b]\n[h1] ---------------------------------[/h1]\n[h1]Tags[/h1]\n[h1] ---------------------------------[/h1]\n- Train\n- Relax\n- Anime\n- Art\n- Sakura \n- Japanese \n- Girl\n- Woman\n- Visualizer\n- ICUE\n[h1] ---------------------------------[/h1]",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"Artist" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "<hr><center><a href='https://www.artstation.com/shal'><img src='https://www.iconfinder.com/data/icons/logos-and-brands/512/27_Artstation_logo_logos-128.png'></a><strong>Support The Artist<br/></strong><br/></a></center>",
+				"type" : "text"
+			},
+			"blur" : 
+			{
+				"condition" : "scene_settings.value",
+				"fraction" : true,
+				"index" : 6,
+				"max" : 2,
+				"min" : 0,
+				"order" : 106,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Window Blur",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"clouds" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 4,
+				"order" : 104,
+				"text" : "Clouds",
+				"type" : "bool",
+				"value" : true
+			},
+			"color" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 10,
+				"order" : 110,
+				"text" : "Color",
+				"type" : "color",
+				"value" : "0.7294117647058823 0.6509803921568628 0.7294117647058823"
+			},
+			"dust_motes" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 2,
+				"order" : 102,
+				"text" : "Dust Motes",
+				"type" : "bool",
+				"value" : true
+			},
+			"remove_top_visualizer" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 8,
+				"order" : 108,
+				"text" : "Remove Top Visualizer",
+				"type" : "bool",
+				"value" : false
+			},
+			"remover_bottom_visualizer" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"index" : 9,
+				"order" : 109,
+				"text" : "Remover Bottom Visualizer",
+				"type" : "bool",
+				"value" : false
+			},
+			"ribbon_pink" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 1,
+				"order" : 101,
+				"text" : "Pink Ribbon",
+				"type" : "bool",
+				"value" : true
+			},
+			"scene_settings" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "<h3>Scene Settings</h3>",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 101,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.984313725490196 0.9058823529411765 0.9803921568627451"
+			},
+			"tree" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Sakura Tree",
+				"type" : "bool",
+				"value" : true
+			},
+			"visualizer" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"fraction" : true,
+				"index" : 11,
+				"max" : 1,
+				"min" : 0,
+				"order" : 111,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Visualizer Opacity",
+				"type" : "slider",
+				"value" : 1
+			},
+			"visualizer_settings" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "<h3>Visualizer Settings</h3>",
+				"type" : "bool",
+				"value" : false
+			},
+			"visualizer_width" : 
+			{
+				"condition" : "visualizer_settings.value",
+				"fraction" : true,
+				"index" : 12,
+				"max" : 1,
+				"min" : 0.5,
+				"order" : 112,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Visualizer Width",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"windowglare" : 
+			{
+				"condition" : "scene_settings.value",
+				"index" : 5,
+				"order" : 105,
+				"text" : "Window Glare",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"supportsaudioprocessing" : true,
+	"tags" : [ "Relaxing" ],
+	"title" : "Stay",
+	"type" : "scene",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "2245483696",
+	"workshopurl" : "steam://url/CommunityFilePage/2245483696"
+}
